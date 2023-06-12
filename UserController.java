@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.security.Principal;
 //user controler
+// user controller
 @Controller
 @RequiredArgsConstructor
 @RequestMapping
