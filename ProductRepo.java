@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import java.beans.Transient;
 import java.util.List;
-
+//product repo
 @Repository
 public interface ProductRepo extends JpaRepository<Product, Integer> {
     @Query(value = "SELECT * FROM products WHERE product_category = ?1", nativeQuery = true)
