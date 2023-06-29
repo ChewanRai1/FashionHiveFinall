@@ -6,7 +6,7 @@ import com.system.Fashionhive.pojo.ProductPojo;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
-
+//product service
 public interface ProductService {
 
     String saveProduct(ProductPojo productPojo) throws IOException;
