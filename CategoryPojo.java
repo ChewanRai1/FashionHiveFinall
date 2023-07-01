@@ -17,8 +17,3 @@ public class CategoryPojo {
 
     private String category_name;
 
-    public CategoryPojo(Category category){
-        this.id=category.getId();
-        this.category_name=category.getCategory_name();
-    }
-}
