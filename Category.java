@@ -18,5 +18,5 @@ public class Category {
     @GeneratedValue(generator = "Fashionhive_user_seq_gen", strategy = GenerationType.SEQUENCE)
     private Integer id;
     @Column(nullable = false)
-    private String category_name;
+    private String 
 }
