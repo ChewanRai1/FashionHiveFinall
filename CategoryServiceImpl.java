@@ -20,8 +20,3 @@ public class CategoryServiceImpl implements CategoryService {
         return categoryRepo.findAll();
     }
 
-    @Override
-    public Optional<Category> findById(Integer id) {
-        return categoryRepo.findById(id);
-    }
-}
