@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 //product service
+// product entity
 public interface ProductService {
 
     String saveProduct(ProductPojo productPojo) throws IOException;
